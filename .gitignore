@@ -1,0 +1,32 @@
+# unity ignore dir
+/[Bb]in/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+ 
+# unity ignore file
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.meta
+*.tmp
+ 
+# need include the meta of file
+!*.*.meta
+
+# 忽略自动生成的库文件
+Library/
+
+# 忽略自动生成的临时文件
+Temp/
+
+# 忽略自动生成的日志文件
+*.log
+
+# 忽略自动生成的Unity專案檔案
+*.unityproj
+
+# 忽略自动生成的可執行檔
+Build/
